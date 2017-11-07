@@ -230,12 +230,12 @@ body{
 .col8{
   width: 66.66%
 }
+.col9{
+  width: 75%;
+}
 .col9-with-offset{
   width: 75%;
   margin:0 auto;
-}
-.col9{
-  width: 75%;
 }
 .col10{
   width: 83.33%;
