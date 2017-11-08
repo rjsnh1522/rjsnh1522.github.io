@@ -464,9 +464,51 @@ span.tag-tag{
   color: #2b2b2b;
   font-weight: 500;
   font-family: 'Source Sans Pro', sans-serif;
+
+}
+.share-post-footer{
+  margin: 2.2em 0;
+}
+.share-details-wrapper h4{
   font-weight: 500;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: .9em;
+}
+.social-share-buttons{
+  margin: 1em 0;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.social-share-buttons a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .8em;
+    padding: .8em 1.8em;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.social-share-buttons a i{
+  position: relative;
+  top: 2px;
+  left: -2px;
+  font-size: 14px;
+  margin-right: 5px;
 }
 
+
+
+.social-share-buttons a.fb{
+  background: #3d5c9b;
+}
+.social-share-buttons a.tweet{
+  background: #227de6;
+}
+.social-share-buttons a.gplus{
+  background: #ff3131;
+}
+.social-share-buttons a.link{
+  background: #2a96b5;
+}
 
 
 
