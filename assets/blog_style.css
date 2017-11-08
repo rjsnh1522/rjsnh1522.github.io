@@ -11,6 +11,12 @@ body{
   font-family: 'Poiret One', cursive;
 
 }
+::selection {
+  background: #1597ab; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #1597ab; /* Gecko Browsers */
+}
 .big8-detail{
   position: relative;
 }
@@ -510,19 +516,24 @@ span.tag-tag{
   background: #2a96b5;
 }
 
-
-
-::selection {
-  background: #1597ab; /* WebKit/Blink Browsers */
+.about-author-wrapper{
+  padding:4em 0;
+  border-top:5px solid #e6e6e6;
 }
-::-moz-selection {
-  background: #1597ab; /* Gecko Browsers */
+.heading-wrapper{
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2b2b2b;
+  font-size: .9rem;
+  font-weight: 500;
+  padding: .8em 0;
+
 }
-
-
-
-
-
+.author-bio{
+  font-family: 'Lora', serif;
+  font-size: .8em;
+  font-weight: 300;
+  line-height: 150%;
+}
 
 
 
